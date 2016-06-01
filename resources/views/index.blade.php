@@ -7,47 +7,47 @@
 		<meta name="description" content="日志分析展示系统" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- basic styles -->
-		<link href="resources/assets/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="resources/assets/css/font-awesome.min.css" />
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 
 		<!--[if IE 7]>
-		  <link rel="stylesheet" href="resources/assets/css/font-awesome-ie7.min.css" />
+		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
 		<![endif]-->
 
 		<!-- page specific plugin styles -->
 
 		<!-- fonts 
 
-		<link rel="stylesheet" href="resources/assets\css\cyrillic.css" />
+		<link rel="stylesheet" href="assets\css\cyrillic.css" />
 -->
 		<!-- ace styles -->
 
-		<link rel="stylesheet" href="resources/assets/css/ace.min.css" />
-		<link rel="stylesheet" href="resources/assets/css/ace-rtl.min.css" />
-		<link rel="stylesheet" href="resources/assets/css/ace-skins.min.css" />
-		<link rel="stylesheet" href="resources/assets/css/dropzone.css" />
+		<link rel="stylesheet" href="assets/css/ace.min.css" />
+		<link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="assets/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="assets/css/dropzone.css" />
 
 		<!--[if lte IE 8]>
-		  <link rel="stylesheet" href="resources/assets/css/ace-ie.min.css" />
+		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
 		<![endif]-->
 
 		<!-- inline styles related to this page -->
 
 		<!-- ace settings handler -->
 
-		<script src="resources/assets/js/ace-extra.min.js"></script>
+		<script src="assets/js/ace-extra.min.js"></script>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
 		<!--[if lt IE 9]>
-		<script src="resources/assets/js/html5shiv.js"></script>
-		<script src="resources/assets/js/respond.min.js"></script>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
 
 		<!--customize-->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="resources/assets/js/index/index.js"></script>
-		<script src="resources/assets/js/dropzone.min.js"></script>
+		<script src="assets/js/index/index.js"></script>
+		<script src="assets/js/dropzone.min.js"></script>
 
 
 	</head>
@@ -88,7 +88,7 @@
 
 						<li class="light-blue">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-								<img class="nav-user-photo" src="resources/assets/avatars/user.jpg" alt="Jason's Photo" />
+								<img class="nav-user-photo" src="assets/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>欢迎光临,</small>
 									Jason
@@ -222,13 +222,16 @@
 
 					<div class="page-content tab-content" >
 						<div id="addWordsSection" class="tab-pane fade in">
-							<div id="dropzone">
-								<form action="//dummy.html" class="dropzone dz-clickable">
-									<div class="fallback">
-										<input name="file" type="file" multiple="" />
-									</div>
-								</form>
-							</div>
+							<form id="myform" method="post" action="/upload">
+								{{csrf_field()}}
+								<input type="file" name="avatar" />
+
+								<div class="hr hr-12 dotted"></div>
+
+								<button type="submit" class="btn btn-sm btn-primary">Submit</button>
+								<button type="reset" class="btn btn-sm">Reset</button>
+							</form>
+
 						</div>
 
 						<div id="searchWordsSection" class="tab-pane fade in active">
@@ -356,53 +359,53 @@
 
 		<!--[if !IE]> -->
 
-		<script src="resources\assets\js\jquery-2.0.3.min.js"></script>
+		<script src="assets\js\jquery-2.0.3.min.js"></script>
 
 		<!-- <![endif]-->
 
 		<!--[if IE]>
-<script src="resources\assets\js\jquery-1.10.2.min.js"></script>
+<script src="assets\js\jquery-1.10.2.min.js"></script>
 <![endif]-->
 
 		<!--[if !IE]> -->
 
 		<script type="text/javascript">
-			window.jQuery || document.write("<script src='resources/assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+			window.jQuery || document.write("<script src='assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
 		</script>
 
 		<!-- <![endif]-->
 
 		<!--[if IE]>
 <script type="text/javascript">
- window.jQuery || document.write("<script src='resources/assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
+ window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
 </script>
 <![endif]-->
 
 		<script type="text/javascript">
-			if("ontouchend" in document) document.write("<script src='resources/assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
+			if("ontouchend" in document) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
 		</script>
-		<script src="resources/assets/js/bootstrap.min.js"></script>
-		<script src="resources/assets/js/typeahead-bs2.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/typeahead-bs2.min.js"></script>
 
 		<!-- page specific plugin scripts -->
 
 		<!--[if lte IE 8]>
-		  <script src="resources/assets/js/excanvas.min.js"></script>
+		  <script src="assets/js/excanvas.min.js"></script>
 		<![endif]-->
 
-		<script src="resources/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
-		<script src="resources/assets/js/jquery.ui.touch-punch.min.js"></script>
-		<script src="resources/assets/js/jquery.slimscroll.min.js"></script>
-		<script src="resources/assets/js/jquery.easy-pie-chart.min.js"></script>
-		<script src="resources/assets/js/jquery.sparkline.min.js"></script>
-		<script src="resources/assets/js/flot/jquery.flot.min.js"></script>
-		<script src="resources/assets/js/flot/jquery.flot.pie.min.js"></script>
-		<script src="resources/assets/js/flot/jquery.flot.resize.min.js"></script>
+		<script src="assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="assets/js/jquery.slimscroll.min.js"></script>
+		<script src="assets/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="assets/js/jquery.sparkline.min.js"></script>
+		<script src="assets/js/flot/jquery.flot.min.js"></script>
+		<script src="assets/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="assets/js/flot/jquery.flot.resize.min.js"></script>
 
 		<!-- ace scripts -->
 
-		<script src="resources/assets/js/ace-elements.min.js"></script>
-		<script src="resources/assets/js/ace.min.js"></script>
+		<script src="assets/js/ace-elements.min.js"></script>
+		<script src="assets/js/ace.min.js"></script>
 
 		<!-- inline scripts related to this page -->
 

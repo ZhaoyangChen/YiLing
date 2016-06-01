@@ -11,8 +11,10 @@
 |
 */
 
+Route::get('/test/', 'TestController@test');
+
+Route::post('/upload', 'UploadController@handleFile');
+
 Route::get('/', function () {
     return view('index');
 });
-
-Route::get('/test', 'TestController@test');

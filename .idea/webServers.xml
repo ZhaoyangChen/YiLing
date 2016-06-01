@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="52263f99-cadc-4f8d-92d4-de5965fe1c73" name="YiLing" url="http://124.42.118.82">
+        <fileTransfer host="124.42.118.82" port="20" username="royan">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="20" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
