@@ -2,117 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef5893e4-4819-4cf7-b0a3-ba95e104e0ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/UploadController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/index/index.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/assets/js/index/index.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/avatars/Thumbs.db" afterPath="$PROJECT_DIR$/public/assets/avatars/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/avatars/avatar.png" afterPath="$PROJECT_DIR$/public/assets/avatars/avatar.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/avatars/avatar1.png" afterPath="$PROJECT_DIR$/public/assets/avatars/avatar1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/avatars/avatar2.png" afterPath="$PROJECT_DIR$/public/assets/avatars/avatar2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/avatars/avatar3.png" afterPath="$PROJECT_DIR$/public/assets/avatars/avatar3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/avatars/avatar4.png" afterPath="$PROJECT_DIR$/public/assets/avatars/avatar4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/avatars/avatar5.png" afterPath="$PROJECT_DIR$/public/assets/avatars/avatar5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/avatars/profile-pic.jpg" afterPath="$PROJECT_DIR$/public/assets/avatars/profile-pic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/avatars/user.jpg" afterPath="$PROJECT_DIR$/public/assets/avatars/user.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/avatars/user.png" afterPath="$PROJECT_DIR$/public/assets/avatars/user.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/ace-ie.min.css" afterPath="$PROJECT_DIR$/public/assets/css/ace-ie.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/ace-rtl.min.css" afterPath="$PROJECT_DIR$/public/assets/css/ace-rtl.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/ace-skins.min.css" afterPath="$PROJECT_DIR$/public/assets/css/ace-skins.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/ace.min.css" afterPath="$PROJECT_DIR$/public/assets/css/ace.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/bootstrap-editable.css" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap-editable.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/bootstrap-timepicker.css" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap-timepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/chosen.css" afterPath="$PROJECT_DIR$/public/assets/css/chosen.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/colorbox.css" afterPath="$PROJECT_DIR$/public/assets/css/colorbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/colorpicker.css" afterPath="$PROJECT_DIR$/public/assets/css/colorpicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/cyrillic.css" afterPath="$PROJECT_DIR$/public/assets/css/cyrillic.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/datepicker.css" afterPath="$PROJECT_DIR$/public/assets/css/datepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/daterangepicker.css" afterPath="$PROJECT_DIR$/public/assets/css/daterangepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/dropzone.css" afterPath="$PROJECT_DIR$/public/assets/css/dropzone.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/font-awesome-ie7.min.css" afterPath="$PROJECT_DIR$/public/assets/css/font-awesome-ie7.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/assets/css/font-awesome.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/fullcalendar.css" afterPath="$PROJECT_DIR$/public/assets/css/fullcalendar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/images/Thumbs.db" afterPath="$PROJECT_DIR$/public/assets/css/images/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/images/loading.gif" afterPath="$PROJECT_DIR$/public/assets/css/images/loading.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/jquery-ui-1.10.3.custom.min.css" afterPath="$PROJECT_DIR$/public/assets/css/jquery-ui-1.10.3.custom.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/jquery-ui-1.10.3.full.min.css" afterPath="$PROJECT_DIR$/public/assets/css/jquery-ui-1.10.3.full.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/jquery.gritter.css" afterPath="$PROJECT_DIR$/public/assets/css/jquery.gritter.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/select2.css" afterPath="$PROJECT_DIR$/public/assets/css/select2.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/css/ui.jqgrid.css" afterPath="$PROJECT_DIR$/public/assets/css/ui.jqgrid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/assets/font/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/image-1.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/image-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/image-2.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/image-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/image-3.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/image-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/image-4.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/image-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/image-5.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/image-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/image-6.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/image-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/thumb-1.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/thumb-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/thumb-2.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/thumb-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/thumb-3.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/thumb-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/thumb-4.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/thumb-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/thumb-5.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/thumb-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/gallery/thumb-6.jpg" afterPath="$PROJECT_DIR$/public/assets/images/gallery/thumb-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/images/spritemap.png" afterPath="$PROJECT_DIR$/public/assets/images/spritemap.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/ace-elements.min.js" afterPath="$PROJECT_DIR$/public/assets/js/ace-elements.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/ace-extra.min.js" afterPath="$PROJECT_DIR$/public/assets/js/ace-extra.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/ace.min.js" afterPath="$PROJECT_DIR$/public/assets/js/ace.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/additional-methods.min.js" afterPath="$PROJECT_DIR$/public/assets/js/additional-methods.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/bootbox.min.js" afterPath="$PROJECT_DIR$/public/assets/js/bootbox.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/bootstrap-colorpicker.min.js" afterPath="$PROJECT_DIR$/public/assets/js/bootstrap-colorpicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/bootstrap-tag.min.js" afterPath="$PROJECT_DIR$/public/assets/js/bootstrap-tag.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/bootstrap-wysiwyg.min.js" afterPath="$PROJECT_DIR$/public/assets/js/bootstrap-wysiwyg.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/chosen.jquery.min.js" afterPath="$PROJECT_DIR$/public/assets/js/chosen.jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/date-time/bootstrap-datepicker.min.js" afterPath="$PROJECT_DIR$/public/assets/js/date-time/bootstrap-datepicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/date-time/bootstrap-timepicker.min.js" afterPath="$PROJECT_DIR$/public/assets/js/date-time/bootstrap-timepicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/date-time/daterangepicker.min.js" afterPath="$PROJECT_DIR$/public/assets/js/date-time/daterangepicker.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/date-time/moment.min.js" afterPath="$PROJECT_DIR$/public/assets/js/date-time/moment.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/dropzone.min.js" afterPath="$PROJECT_DIR$/public/assets/js/dropzone.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/excanvas.min.js" afterPath="$PROJECT_DIR$/public/assets/js/excanvas.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/flot/jquery.flot.min.js" afterPath="$PROJECT_DIR$/public/assets/js/flot/jquery.flot.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/flot/jquery.flot.pie.min.js" afterPath="$PROJECT_DIR$/public/assets/js/flot/jquery.flot.pie.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/flot/jquery.flot.resize.min.js" afterPath="$PROJECT_DIR$/public/assets/js/flot/jquery.flot.resize.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/fuelux/data/fuelux.tree-sampledata.js" afterPath="$PROJECT_DIR$/public/assets/js/fuelux/data/fuelux.tree-sampledata.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/fuelux/fuelux.spinner.min.js" afterPath="$PROJECT_DIR$/public/assets/js/fuelux/fuelux.spinner.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/fuelux/fuelux.tree.min.js" afterPath="$PROJECT_DIR$/public/assets/js/fuelux/fuelux.tree.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/fuelux/fuelux.wizard.min.js" afterPath="$PROJECT_DIR$/public/assets/js/fuelux/fuelux.wizard.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/fullcalendar.min.js" afterPath="$PROJECT_DIR$/public/assets/js/fullcalendar.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/html5shiv.js" afterPath="$PROJECT_DIR$/public/assets/js/html5shiv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jqGrid/i18n/grid.locale-en.js" afterPath="$PROJECT_DIR$/public/assets/js/jqGrid/i18n/grid.locale-en.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jqGrid/jquery.jqGrid.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jqGrid/jquery.jqGrid.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery-1.10.2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery-2.0.3.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery-2.0.3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery-ui-1.10.3.custom.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery-ui-1.10.3.custom.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery-ui-1.10.3.full.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery-ui-1.10.3.full.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.autosize.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.autosize.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.colorbox-min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.colorbox-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.dataTables.bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.dataTables.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.easy-pie-chart.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.easy-pie-chart.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.gritter.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.gritter.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.hotkeys.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.hotkeys.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.inputlimiter.1.3.1.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.inputlimiter.1.3.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.knob.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.knob.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.maskedinput.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.mobile.custom.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.mobile.custom.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.nestable.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.nestable.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.slimscroll.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.sparkline.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.ui.touch-punch.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.ui.touch-punch.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.validate.min.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery.validate.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/markdown/bootstrap-markdown.min.js" afterPath="$PROJECT_DIR$/public/assets/js/markdown/bootstrap-markdown.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/markdown/markdown.min.js" afterPath="$PROJECT_DIR$/public/assets/js/markdown/markdown.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/respond.min.js" afterPath="$PROJECT_DIR$/public/assets/js/respond.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/select2.min.js" afterPath="$PROJECT_DIR$/public/assets/js/select2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/typeahead-bs2.min.js" afterPath="$PROJECT_DIR$/public/assets/js/typeahead-bs2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/x-editable/ace-editable.min.js" afterPath="$PROJECT_DIR$/public/assets/js/x-editable/ace-editable.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/x-editable/bootstrap-editable.min.js" afterPath="$PROJECT_DIR$/public/assets/js/x-editable/bootstrap-editable.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterPath="$PROJECT_DIR$/public/assets/sass/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/images/welcomeBgImg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/DeleteController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/QueryController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/index/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/login/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/js/login/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/User.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/images/spritemap.png" afterPath="$PROJECT_DIR$/public/assets/images/spritemap.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UploadController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UploadController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/TestModel.php" afterPath="$PROJECT_DIR$/app/TestModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/js/index/index.js" afterPath="$PROJECT_DIR$/public/assets/js/index/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/table.html" afterPath="$PROJECT_DIR$/resources/views/table.html" />
     </list>
     <ignored path="YiLing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,21 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            <state relative-caret-position="272">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#7#392#0#PHP" expanded="true" />
               </folding>
@@ -159,42 +62,30 @@
       <file leaf-file-name="UploadController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="-43">
+              <caret line="60" column="75" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="75" />
+              <folding>
+                <element signature="e#40#56#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3910">
-              <caret line="230" column="66" selection-start-line="230" selection-start-column="66" selection-end-line="230" selection-end-column="66" />
-              <folding>
-                <marker date="1464234257000" expanded="true" signature="10233:10340" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/assets/js/index/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2635">
-              <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
-              <folding>
-                <marker date="1464233788000" expanded="true" signature="3659:3688" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="2023">
+              <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -203,14 +94,68 @@
       <file leaf-file-name="laravel.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33558">
-              <caret line="1974" column="74" selection-start-line="1974" selection-start-column="74" selection-end-line="1974" selection-end-column="74" />
+            <state relative-caret-position="89777">
+              <caret line="5281" column="0" selection-start-line="5281" selection-start-column="0" selection-end-line="5281" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="252" column="116" selection-start-line="252" selection-start-column="116" selection-end-line="252" selection-end-column="116" />
+              <folding>
+                <marker date="1465704715000" expanded="true" signature="11134:11308" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DeleteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QueryController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="e#39#67#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/js/index/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4199">
+              <caret line="247" column="48" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
+              <folding>
+                <marker date="1465704505000" expanded="true" signature="6160:6189" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -219,15 +164,30 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/storage/logs/laravel.log" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/TestModel.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/index/index.js" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/login/index.css" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ValidateController.php" />
+        <option value="$PROJECT_DIR$/public/assets/js/login/index.js" />
+        <option value="$PROJECT_DIR$/resources/views/login.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/public/uploadBin/keywordSource.csv" />
+        <option value="$PROJECT_DIR$/app/TestModel.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/KeywordQueryController.php" />
+        <option value="$PROJECT_DIR$/lib/query.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/index/index.css" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/DeleteController.php" />
+        <option value="$PROJECT_DIR$/app/Keyword.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QueryController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TestController.php" />
+        <option value="$PROJECT_DIR$/storage/logs/laravel.log" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UploadController.php" />
         <option value="$PROJECT_DIR$/public/assets/js/index/index.js" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
       </list>
     </option>
@@ -250,10 +210,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-199" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="803" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -308,11 +267,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,21 +281,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YiLing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YiLing" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,16 +297,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///Users/zhaoyang/study/YiLing/public/assets/js/index/index.js&#10;test&#9;FILE&#9;file:///Users/zhaoyang/study/YiLing/app/Http/Controllers/TestController.php&#10;dele&#9;FILE&#9;file:///Users/zhaoyang/study/YiLing/app/Http/Controllers/DeleteController.php&#10;la&#9;FILE&#9;file:///Users/zhaoyang/study/YiLing/storage/logs/laravel.log&#10;lar&#9;FILE&#9;file:///Users/zhaoyang/study/YiLing/storage/logs/laravel.log&#10;index.&#9;FILE&#9;file:///Users/zhaoyang/study/YiLing/public/assets/css/login/index.css&#10;where&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
-      <recent name="$PROJECT_DIR$/resources" />
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/js" />
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/public/assets/images" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -420,26 +366,42 @@
       <workItem from="1464686948681" duration="1701000" />
       <workItem from="1464758518713" duration="772000" />
       <workItem from="1464762661398" duration="344000" />
+      <workItem from="1464774903694" duration="15000" />
+      <workItem from="1464860540578" duration="626000" />
+      <workItem from="1464919266177" duration="9559000" />
+      <workItem from="1465181553264" duration="450000" />
+      <workItem from="1465182722451" duration="7407000" />
+      <workItem from="1465195227124" duration="630000" />
+      <workItem from="1465195913051" duration="10624000" />
+      <workItem from="1465267732333" duration="3142000" />
+      <workItem from="1465278295565" duration="11633000" />
+      <workItem from="1465292723763" duration="1985000" />
+      <workItem from="1465329714246" duration="1710000" />
+      <workItem from="1465351750242" duration="3590000" />
+      <workItem from="1465356549451" duration="14590000" />
+      <workItem from="1465694552327" duration="6305000" />
+      <workItem from="1465703733176" duration="874000" />
+      <workItem from="1465707076832" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19716000" />
+    <option name="totallyTimeSpent" value="92893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-199" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.013541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -463,80 +425,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php</url>
+          <line>16</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php</url>
+          <line>55</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3910">
-          <caret line="230" column="66" selection-start-line="230" selection-start-column="66" selection-end-line="230" selection-end-column="66" />
-          <folding>
-            <marker date="1464234257000" expanded="true" signature="10233:10340" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
-          <folding>
-            <marker date="1464233788000" expanded="true" signature="3659:3688" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33558">
-          <caret line="1974" column="74" selection-start-line="1974" selection-start-column="74" selection-end-line="1974" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -551,7 +456,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -559,9 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3910">
           <caret line="230" column="66" selection-start-line="230" selection-start-column="66" selection-end-line="230" selection-end-column="66" />
-          <folding>
-            <marker date="1464234257000" expanded="true" signature="10233:10340" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,7 +474,7 @@
         <state relative-caret-position="2635">
           <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
           <folding>
-            <marker date="1464233788000" expanded="true" signature="3659:3688" ph="..." />
+            <marker date="1465704505000" expanded="true" signature="6160:6189" ph="..." />
           </folding>
         </state>
       </provider>
@@ -579,7 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,7 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33558">
           <caret line="1974" column="74" selection-start-line="1974" selection-start-column="74" selection-end-line="1974" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,131 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3910">
-          <caret line="230" column="66" selection-start-line="230" selection-start-column="66" selection-end-line="230" selection-end-column="66" />
-          <folding>
-            <marker date="1464234257000" expanded="true" signature="10233:10340" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
-          <folding>
-            <marker date="1464233788000" expanded="true" signature="3659:3688" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33558">
-          <caret line="1974" column="74" selection-start-line="1974" selection-start-column="74" selection-end-line="1974" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3910">
-          <caret line="230" column="66" selection-start-line="230" selection-start-column="66" selection-end-line="230" selection-end-column="66" />
-          <folding>
-            <marker date="1464234257000" expanded="true" signature="10233:10340" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
-          <folding>
-            <marker date="1464233788000" expanded="true" signature="3659:3688" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33558">
-          <caret line="1974" column="74" selection-start-line="1974" selection-start-column="74" selection-end-line="1974" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +514,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -745,9 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3910">
           <caret line="230" column="66" selection-start-line="230" selection-start-column="66" selection-end-line="230" selection-end-column="66" />
-          <folding>
-            <marker date="1464234257000" expanded="true" signature="10233:10340" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,7 +532,7 @@
         <state relative-caret-position="2635">
           <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
           <folding>
-            <marker date="1464233788000" expanded="true" signature="3659:3688" ph="..." />
+            <marker date="1465704505000" expanded="true" signature="6160:6189" ph="..." />
           </folding>
         </state>
       </provider>
@@ -765,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33558">
           <caret line="1974" column="74" selection-start-line="1974" selection-start-column="74" selection-end-line="1974" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,67 +579,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33558">
-          <caret line="1974" column="74" selection-start-line="1974" selection-start-column="74" selection-end-line="1974" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/TestModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3910">
-          <caret line="230" column="66" selection-start-line="230" selection-start-column="66" selection-end-line="230" selection-end-column="66" />
-          <folding>
-            <marker date="1464234257000" expanded="true" signature="10233:10340" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,29 +593,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/index/index.js">
+    <entry file="file://$PROJECT_DIR$/public/uploadBin/9B01AD43-C69B-4180-8E49-B2F91E6B8F72.png" />
+    <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
+        <state relative-caret-position="-95">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/ace.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/colorbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/chosen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="72" column="63" selection-start-line="72" selection-start-column="63" selection-end-line="72" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploadBin/keywordSource.csv" />
+    <entry file="file://$PROJECT_DIR$/public/uploadBin/keywordSource.csv" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/KeywordQueryController.php" />
+    <entry file="file://$PROJECT_DIR$/lib/query.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="769" column="20" selection-start-line="769" selection-start-column="20" selection-end-line="769" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/login/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/index/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/bootbox.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TestModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Keyword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/DeleteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QueryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
-            <marker date="1464233788000" expanded="true" signature="3659:3688" ph="..." />
+            <element signature="e#39#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="89777">
+          <caret line="5281" column="0" selection-start-line="5281" selection-start-column="0" selection-end-line="5281" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="26" selection-start-line="119" selection-start-column="26" selection-end-line="119" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4199">
+          <caret line="247" column="48" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
+          <folding>
+            <marker date="1465704505000" expanded="true" signature="6160:6189" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="252" column="116" selection-start-line="252" selection-start-column="116" selection-end-line="252" selection-end-column="116" />
+          <folding>
+            <marker date="1465704715000" expanded="true" signature="11134:11308" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UploadController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="-43">
+          <caret line="60" column="75" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="75" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,19 @@
-﻿<!DOCTYPE html>
+﻿<?php
+$tableTags = [
+	'关键词',
+	'PC端URL',
+	'PC端URL排名',
+	'PC端URL昨日抓取情况',
+	'移动端URL',
+	'移动端URL排名',
+	'移动端URL昨日抓取情况',
+	'添加者',
+	'添加时间',
+	'最近更新时间',
+];
+?>
+
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -45,11 +60,12 @@
 		<![endif]-->
 
 		<!--customize-->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="assets/js/index/index.js"></script>
 		<script src="assets/js/dropzone.min.js"></script>
-
-
+		<link rel="stylesheet" href="assets/css/index/index.css" />
+		<script src="assets/js/bootbox.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
 	</head>
 
 	<body>
@@ -170,7 +186,7 @@
 					</div><!-- #sidebar-shortcuts -->
 
 					<ul id="navTabs" class="nav nav-list">
-						<li class="active">
+						<li id="addNav" class="active">
 							<a href="#searchWordsSection" data-toggle="tab">
 								<i class="icon-search"></i>
 								<span class="menu-text"> 查询热词 </span>
@@ -182,14 +198,9 @@
 								<span class="menu-text"> 添加热词 </span>
 							</a>
 						</li>
-						<li>
-							<a href="#editWordsSection" data-toggle="tab">
-								<i class="icon-edit"></i>
-								<span class="menu-text"> 编辑热词 </span>
-							</a>
-						</li>
-						<li>
-							<a href="#deleteWordsSection" data-toggle="tab">
+
+						<li id="delNav">
+							<a href="#searchWordsSection" data-toggle="tab">
 								<i class="icon-minus"></i>
 								<span class="menu-text"> 删除热词 </span>
 							</a>
@@ -222,7 +233,7 @@
 
 					<div class="page-content tab-content" >
 						<div id="addWordsSection" class="tab-pane fade in">
-							<form id="myform" method="post" action="/upload">
+							<form id="myform" method="post" action="/upload/handleFile">
 								{{csrf_field()}}
 								<input type="file" name="avatar" />
 
@@ -231,121 +242,113 @@
 								<button type="submit" class="btn btn-sm btn-primary">Submit</button>
 								<button type="reset" class="btn btn-sm">Reset</button>
 							</form>
+							<br>
+							<div class="well">
+								<h5>上传进度</h5>
+								<div class="progress progress-mini progress-striped active">
+									<div id="uploadProgress" style="width: 0%;" class="progress-bar progress-bar-blue"></div>
+								</div>
+								<h5>分析进度</h5>
+								<div class="progress progress-mini progress-striped active">
+									<div id="exeProgress" style="width: 0%;" class="progress-bar progress-bar-yellow"></div>
+								</div>
+							</div>
+
 
 						</div>
 
 						<div id="searchWordsSection" class="tab-pane fade in active">
 
-							<div class="input-group">
+							<div id="deleteWell" class="well">
+								<h5>当前已选中<span id="deleteInfo">0</span>条数据, 确认删除?</h5>
+								<button id="deleteConfirm" type="button" class="btn btn-sm btn-danger">
+									<i class="icon-trash"></i>
+									确定
+								</button>
+							</div>
+
+							<div id="searchWell" class="input-group well">
 								<span class="input-group-btn">
-									<button id="searchConditionBtn" data-toggle="dropdown" class="btn btn-white dropdown-toggle">
-										按热词
-										<i class="ace-icon fa fa-angle-down icon-on-right"></i>
-									</button>
-
-									<ul class="dropdown-menu">
-										<li>
-											<a href="#">按PC端URL</a>
-										</li>
-
-										<li>
-											<a href="#">按PC端排名</a>
-										</li>
-
-										<li>
-											<a href="#">按PC端爬取状态</a>
-										</li>
+									<button id="searchConditionBtn" data-toggle="dropdown" class="btn btn-white dropdown-toggle">按热词</button>
+									<ul class="dropdown-menu searchCondition">
+										<li><a href="#">按热词</a></li>
+										<li><a href="#">按PC端URL</a></li>
+										<li><a href="#">按PC端排名</a></li>
+										<li><a href="#">按PC端爬取状态</a></li>
 
 										<li class="divider"></li>
 
-										<li>
-											<a href="#">按移动端URL</a>
-										</li>
-
-										<li>
-											<a href="#">按移动端排名</a>
-										</li>
-
-										<li>
-											<a href="#">按移动端爬取状态</a>
-										</li>
+										<li><a href="#">按移动端URL</a></li>
+										<li><a href="#">按移动端排名</a></li>
+										<li><a href="#">按移动端爬取状态</a></li>
 
 
 										<li class="divider"></li>
 
-										<li>
-											<a href="#">按创建者</a>
-										</li>
-
-										<li>
-											<a href="#">按创建时间</a>
-										</li>
-
-										<li>
-											<a href="#">按最近更新时间</a>
-										</li>
+										<li><a href="#">按创建者</a></li>
+										<li><a href="#">按创建时间</a></li>
+										<li><a href="#">按最近更新时间</a></li>
 									</ul>
 								</span>
-								<input type="text" class="form-control" placeholder="Search for...">
+
 								<span class="input-group-btn">
-									<button class="btn btn-white" type="button">搜索!</button>
+									<button id="searchSymbolBtn" data-toggle="dropdown" class="btn btn-white dropdown-toggle">模糊等于</button>
+									<ul class="dropdown-menu searchCondition">
+										<li><a href="#">模糊等于</a></li>
+										<li><a href="#">精确等于</a></li>
+										<li><a href="#">大于</a></li>
+										<li><a href="#">小于</a></li>
+									</ul>
+								</span>
+								<input id="searchInput"type="text" class="form-control" placeholder="Search for...">
+								<span class="input-group-btn">
+									<button id="keywordSearchBtn" class="btn btn-white" type="button">搜索!</button>
 								</span>
 							</div>
 
-							<div class="table-responsive" style = 'font-size: 1px;'>
+							<nav>
+								<ul class="pager">
+									<li class="prevPage"><a href="#">上一页</a></li>
+									<li class="nextPage"><a href="#">下一页</a></li>
+								</ul>
+							</nav>
+
+							<div id="keywordTableHeader" class="table-header">
+								<span id="header-condition">默认查询结果</span>
+								<span id="header-num"></span>
+								<span id="header-cur"></span>
+								<span id="header-total"></span>
+							</div>
+
+							<div id="keywordTable" class="table-responsive" style = 'font-size: 1px;'>
 								<table id="sample-table-1" class="table table-striped table-bordered table-hover">
 									<thead>
 									<tr>
-										<th class="center">
+										<th class="center selectCell">
 											<label>
-												<input type="checkbox" class="ace" />
+												<input type="checkbox" class="ace selectAll" />
 												<span class="lbl"></span>
 											</label>
 										</th>
-										<th>关键词</th>
-										<th>PC端URL</th>
-										<th>PC端URL排名</th>
-										<th>PC端URL昨日抓取情况</th>
-										<th>移动端URL</th>
-										<th>移动端URL排名</th>
-										<th>移动端URL昨日抓取情况</th>
-										<th>添加者</th>
-										<th>添加时间</th>
-										<th>最近更新时间</th>
+										@foreach($tableTags as $tag)
+											<th>{{$tag}}</th>
+										@endforeach
 									</tr>
 									</thead>
 
 									<tbody>
-									<tr>
-										<td class="center">
-											<label>
-												<input type="checkbox" class="ace" />
-												<span class="lbl"></span>
-											</label>
-										</td>
-
-										<td>上海二手汽车</td>
-										<td>http://shanghai.baixing.com/ershouqiche/</td>
-										<td>1</td>
-										<td>是</td>
-										<td>http://shanghai.baixing.com/m/ershouqiche/</td>
-										<td>3</td>
-										<td>否</td>
-										<td>Royan</td>
-										<td>2099-15-9</td>
-										<td>3099-15-9</td>
-									</tr>
 									</tbody>
 								</table>
 							</div>
 
+							<nav>
+								<ul class="pager">
+									<li class="prevPage"><a href="#">上一页</a></li>
+									<li class="nextPage"><a href="#">下一页</a></li>
+								</ul>
+							</nav>
+
 						</div><!-- Search Section-->
-
-						<div id="editWordsSection" class="tab-pane fade in ">
-						</div>
-
-						<div id="deleteWordsSection" class="tab-pane fade in ">
-						</div>
 					</div><!-- /.page-content -->
 				</div><!-- /.main-content -->
 			</div><!-- /.main-container-inner -->
@@ -377,7 +380,8 @@
 
 		<!--[if IE]>
 <script type="text/javascript">
- window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
+	$.ajaxSetup({ headers: { 'csrftoken' : '{{ csrf_token() }}' } });
+	window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
 </script>
 <![endif]-->
 

@@ -1,1 +1,1 @@
-<?phpnamespace App\Http\Controllers;use App\TestModel;class TestController extends Controller{	public function test() {//		$m = new \MongoClient();//		// 选择一个数据库//		$db = $m->YiLing;//		$collection = $db->TestModel;//		$cursor = $collection->find();//		// 迭代显示文档标题//		foreach ($cursor as $document) {//			echo $document["test"] . "\n";//		}	}}
+<?phpnamespace App\Http\Controllers;use App\Keyword;use App\TestModel;class TestController extends Controller{	public function test() {	}}

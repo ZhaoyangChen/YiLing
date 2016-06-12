@@ -11,10 +11,15 @@
 |
 */
 
-Route::get('/test/', 'TestController@test');
-
-Route::post('/upload', 'UploadController@handleFile');
 
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/tests/', 'TestController@test');
+
+Route::get('/query/{model}',['uses' =>  'QueryController@guide']);
+
+Route::get('/delete/{model}',['uses' =>  'DeleteController@guide']);
+
+Route::any('/upload/{fun}', ['uses' => 'UploadController@guide']);

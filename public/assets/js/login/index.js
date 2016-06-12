@@ -1,0 +1,1 @@
+$(document).ready(function(){	var form = $('form')	form.on('submit', function() {		$.ajax({			url: form.attr('action'),			type: form.attr('method'),			processData: false,			contentType: false,			data: form.serialise()		});	});});
