@@ -1,1 +1,1 @@
-<?phpnamespace App\Http\Controllers;use App\Keyword;use App\TestModel;class TestController extends Controller{	public function test() {	}}
+<?phpnamespace App\Http\Controllers;use App\Lib\Spider;use PHPHtmlParser\Dom;class TestController extends Controller{	public function test() {		Spider::getKeywordRank('二手汽车');	}}

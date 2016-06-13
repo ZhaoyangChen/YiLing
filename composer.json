@@ -9,7 +9,8 @@
         "laravel/framework": "5.2.*",
         "jenssegers/mongodb": "^3.0",
         "phpoffice/phpexcel": "dev-master",
-        "predis/predis": "~1.1@dev"
+        "predis/predis": "~1.1@dev",
+        "paquettg/php-html-parser": "~1.7.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
