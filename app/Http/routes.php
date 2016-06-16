@@ -28,3 +28,5 @@ Route::get('/delete/{model}',['uses' =>  'DeleteController@guide']);
 
 Route::any('/upload/{fun}', ['uses' => 'UploadController@guide']);
 
+Route::any('/spider/{fun}', ['uses' => 'SpiderController@guide']);
+

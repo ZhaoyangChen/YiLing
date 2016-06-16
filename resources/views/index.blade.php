@@ -4,9 +4,13 @@ $tableTags = [
 	'PC端URL',
 	'PC端URL排名',
 	'PC端URL昨日抓取情况',
+	'PC端SEM',
+	'PC端SEM排名',
 	'移动端URL',
 	'移动端URL排名',
 	'移动端URL昨日抓取情况',
+	'移动端SEM',
+	'移动端SEM排名',
 	'添加者',
 	'添加时间',
 	'最近更新时间',
@@ -41,6 +45,7 @@ $tableTags = [
 		<link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
 		<link rel="stylesheet" href="assets/css/ace-skins.min.css" />
 		<link rel="stylesheet" href="assets/css/dropzone.css" />
+		<link rel="stylesheet" href="assets/css/index/index.css" />
 
 		<!--[if lte IE 8]>
 		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
@@ -49,6 +54,7 @@ $tableTags = [
 		<!-- inline styles related to this page -->
 
 		<!-- ace settings handler -->
+		<script src="assets/js/jquery-2.0.3.min.js"></script>
 
 		<script src="assets/js/ace-extra.min.js"></script>
 
@@ -60,12 +66,11 @@ $tableTags = [
 		<![endif]-->
 
 		<!--customize-->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="assets/js/index/index.js"></script>
 		<script src="assets/js/dropzone.min.js"></script>
-		<link rel="stylesheet" href="assets/css/index/index.css" />
-		<script src="assets/js/bootbox.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
+
+		<script src="assets/js/bootbox.min.js"></script>
 	</head>
 
 	<body>
@@ -275,13 +280,16 @@ $tableTags = [
 										<li><a href="#">按PC端URL</a></li>
 										<li><a href="#">按PC端排名</a></li>
 										<li><a href="#">按PC端爬取状态</a></li>
+										<li><a href="#">按PC端SEM</a></li>
+										<li><a href="#">按PC端SEM排名</a></li>
 
 										<li class="divider"></li>
 
 										<li><a href="#">按移动端URL</a></li>
 										<li><a href="#">按移动端排名</a></li>
 										<li><a href="#">按移动端爬取状态</a></li>
-
+										<li><a href="#">按移动端SEM</a></li>
+										<li><a href="#">按移动端SEM排名</a></li>
 
 										<li class="divider"></li>
 
@@ -388,7 +396,6 @@ $tableTags = [
 		<script type="text/javascript">
 			if("ontouchend" in document) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
 		</script>
-		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/typeahead-bs2.min.js"></script>
 
 		<!-- page specific plugin scripts -->
@@ -409,6 +416,7 @@ $tableTags = [
 		<!-- ace scripts -->
 
 		<script src="assets/js/ace-elements.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/ace.min.js"></script>
 
 		<!-- inline scripts related to this page -->

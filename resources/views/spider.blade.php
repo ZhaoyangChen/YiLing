@@ -46,7 +46,7 @@
 
 		<!--customize-->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="assets/js/index/index.js"></script>
+		<script src="assets/js/spider/index.js"></script>
 		<script src="assets/js/dropzone.min.js"></script>
 		<link rel="stylesheet" href="assets/css/index/index.css" />
 		<script src="assets/js/bootbox.min.js"></script>
@@ -172,13 +172,13 @@
 
 					<ul id="navTabs" class="nav nav-list">
 						<li id="addNav" class="active">
-							<a href="#searchWordsSection" data-toggle="tab">
+							<a href="#spiderStatus" data-toggle="tab">
 								<i class="icon-bug"></i>
 								<span class="menu-text"> 爬虫状态 </span>
 							</a>
 						</li>
 						<li>
-							<a href="#addWordsSection" data-toggle="tab">
+							<a href="#spiderControl" data-toggle="tab">
 								<i class="icon-wrench"></i>
 								<span class="menu-text"> 爬虫控制 </span>
 							</a>
@@ -207,9 +207,100 @@
 								<i class="icon-home home-icon"></i>
 								<a href="#">首页</a>
 							</li>
-							<li class="active">爬虫管理</li>
+							<li class="active">爬虫面板</li>
 						</ul><!-- .breadcrumb -->
 					</div>
+
+					<div class="well">
+							<div id="user-profile-1" class="user-profile row">
+								<div class="col-xs-12 col-sm-3 center">
+									<div>
+										<span class="profile-picture">
+											<img id="avatar" class="editable img-responsive" alt="Alex's Avatar" src="assets/images/Spider.jpg" />
+										</span>
+
+										<div class="space-4"></div>
+
+										<div class="width-80 label label-info label-xlg arrowed-in arrowed-in-right">
+											<div class="inline position-relative">
+												<a href="#" class="user-title-label dropdown-toggle" data-toggle="dropdown">
+													<span class="white">Spider Z. Chen</span>
+												</a>
+
+											</div>
+										</div>
+									</div>
+
+									<div class="space-6"></div>
+
+									<div class="hr hr16 dotted"></div>
+								</div>
+
+								<div class="col-xs-12 col-sm-9">
+									<div class="profile-user-info profile-user-info-striped">
+										<div class="profile-info-row">
+											<div class="profile-info-name"> Name </div>
+
+											<div class="profile-info-value">
+												<span class="editable" id="username">Spider</span>
+											</div>
+										</div>
+
+										<div class="profile-info-row">
+											<div class="profile-info-name"> Status </div>
+
+											<div class="profile-info-value">
+												<span class="editable" id="status">Working</span>
+											</div>
+										</div>
+
+										<div class="profile-info-row">
+											<div class="profile-info-name"> Location </div>
+
+											<div class="profile-info-value">
+												<i class="icon-map-marker light-orange bigger-110"></i>
+												<span class="editable" id="country">Shanghai</span>
+												<span class="editable" id="city">China</span>
+											</div>
+										</div>
+
+										<div class="profile-info-row">
+											<div class="profile-info-name"> Father </div>
+
+											<div class="profile-info-value">
+												<span class="editable" id="about">Royan Chen</span>
+											</div>
+										</div>
+
+										<div class="profile-info-row">
+											<div class="profile-info-name"> Age </div>
+
+											<div class="profile-info-value">
+												<span class="editable" id="age">0</span>
+											</div>
+										</div>
+
+										<div class="profile-info-row">
+											<div class="profile-info-name"> Birthday </div>
+
+											<div class="profile-info-value">
+												<span class="editable" id="signup">15/06/2016</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- /.well -->
+
+
+						<div class="page-content tab-content" >
+							<div id="spiderStatus" class="tab-pane fade in active">
+							</div>
+							<div id="spiderControl" class="tab-pane fade in">
+								<button id="startSpider" class="btn btn-primary">启动爬虫工作</button>
+								<button id="stopSpider" class="btn btn-danger">停止爬虫工作</button>
+							</div>
+						</div>
 
 				</div><!-- /.main-content -->
 			</div><!-- /.main-container-inner -->

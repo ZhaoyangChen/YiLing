@@ -1,1 +1,1 @@
-<?phpnamespace App\Http\Controllers;use App\Lib\Spider;use PHPHtmlParser\Dom;class TestController extends Controller{	public function test() {		Spider::getKeywordRank('二手汽车');	}}
+<?phpnamespace App\Http\Controllers;use App\Lib\Spider;use PHPHtmlParser\Dom;class TestController extends Controller{	public function test() {		dd(file_get_contents('http://www.baidu.com/s?wd=锦州市项目加盟&rn=50'));	}}
