@@ -2,27 +2,25 @@
 
 namespace App\Jobs;
 
-use App\Http\Controllers\SpiderController;
 use App\Jobs\Job;
 use App\Lib\Spider;
-use Illuminate\Support\Facades\Redis;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class SpiderMainProcess extends Job implements ShouldQueue
+class SpiderJob extends Job implements ShouldQueue
 {
     use InteractsWithQueue, SerializesModels;
 
-    protected $NumOfinsects = 100;
-
+    protected $insects;
     /**
      * Create a new job instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($insects)
     {
+        $this->insects = $insects;
     }
 
     /**
@@ -32,9 +30,7 @@ class SpiderMainProcess extends Job implements ShouldQueue
      */
     public function handle()
     {
-        while(SpiderController::status()) {
-            Spider::weave($this->NumOfinsects);
-        }
-
+        Spider::weave($this->insects);
+        Spider::spiderQueueMinus();
     }
 }

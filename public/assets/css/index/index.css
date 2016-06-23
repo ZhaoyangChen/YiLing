@@ -1,1 +1,1 @@
-.selectCell {	display: none;}#deleteWell {	display: none;}
+.selectCell {	display: none;}#deleteWell {	display: none;}@media screen and (-webkit-min-device-pixel-ratio:0){table {font-size: 12px;}}table {	table-layout: fixed;}td {	overflow: hidden;	white-space: nowrap;	text-overflow: ellipsis;}

@@ -4,13 +4,16 @@ $tableTags = [
 	'PC端URL',
 	'PC端URL排名',
 	'PC端URL昨日抓取情况',
-	'PC端SEM',
-	'PC端SEM排名',
+//	'PC端SEM',
+//	'PC端SEM排名',
 	'移动端URL',
 	'移动端URL排名',
 	'移动端URL昨日抓取情况',
-	'移动端SEM',
-	'移动端SEM排名',
+//	'移动端SEM',
+//	'移动端SEM排名',
+
+	'期望',
+	'备注',
 	'添加者',
 	'添加时间',
 	'最近更新时间',
@@ -55,6 +58,7 @@ $tableTags = [
 
 		<!-- ace settings handler -->
 		<script src="assets/js/jquery-2.0.3.min.js"></script>
+		<script src="assets/js/ace.min.js"></script>
 
 		<script src="assets/js/ace-extra.min.js"></script>
 
@@ -280,16 +284,16 @@ $tableTags = [
 										<li><a href="#">按PC端URL</a></li>
 										<li><a href="#">按PC端排名</a></li>
 										<li><a href="#">按PC端爬取状态</a></li>
-										<li><a href="#">按PC端SEM</a></li>
-										<li><a href="#">按PC端SEM排名</a></li>
+										{{--<li><a href="#">按PC端SEM</a></li>--}}
+										{{--<li><a href="#">按PC端SEM排名</a></li>--}}
 
 										<li class="divider"></li>
 
 										<li><a href="#">按移动端URL</a></li>
 										<li><a href="#">按移动端排名</a></li>
 										<li><a href="#">按移动端爬取状态</a></li>
-										<li><a href="#">按移动端SEM</a></li>
-										<li><a href="#">按移动端SEM排名</a></li>
+										{{--<li><a href="#">按移动端SEM</a></li>--}}
+										{{--<li><a href="#">按移动端SEM排名</a></li>--}}
 
 										<li class="divider"></li>
 
@@ -318,6 +322,8 @@ $tableTags = [
 								<ul class="pager">
 									<li class="prevPage"><a href="#">上一页</a></li>
 									<li class="nextPage"><a href="#">下一页</a></li>
+									<input class="jumpInput" type="text"  placeholder="请输入页码...">
+									<li class="jumpPage"><a href="#">跳页</a></li>
 								</ul>
 							</nav>
 
@@ -353,6 +359,8 @@ $tableTags = [
 								<ul class="pager">
 									<li class="prevPage"><a href="#">上一页</a></li>
 									<li class="nextPage"><a href="#">下一页</a></li>
+									<input class="jumpInput" type="text"  placeholder="请输入页码...">
+									<li class="jumpPage"><a href="#">跳页</a></li>
 								</ul>
 							</nav>
 
@@ -417,7 +425,6 @@ $tableTags = [
 
 		<script src="assets/js/ace-elements.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
-		<script src="assets/js/ace.min.js"></script>
 
 		<!-- inline scripts related to this page -->
 
