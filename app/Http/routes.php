@@ -12,21 +12,33 @@
 */
 
 
-Route::get('/', function () {
+Route::get('/', [
+    'middleware' => 'auth',
+    function () {
     return view('index');
-});
+    }
+]
+);
 
-Route::any('/spider/', function() {
-    return view('spider');
-});
+Route::any('/spider/',
+    [
+        'middleware' => 'auth',
+        function () {
+            return view('spider');
+        }
+]
+);
 
-Route::get('/tests/', 'TestController@test');
+Route::get('/tests/', ['middleware' => 'auth','uses' =>  'TestController@test']);
 
-Route::get('/query/{model}',['uses' =>  'QueryController@guide']);
+Route::get('/query/{model}',['middleware' => 'auth','uses' =>  'QueryController@guide']);
 
-Route::get('/delete/{model}',['uses' =>  'DeleteController@guide']);
+Route::get('/download/',['middleware' => 'auth','uses' =>  'DownloadController@download']);
 
-Route::any('/upload/{fun}', ['uses' => 'UploadController@guide']);
+Route::get('/delete/{model}',['middleware' => 'auth','uses' =>  'DeleteController@guide']);
 
-Route::any('/spider/{fun}', ['uses' => 'SpiderController@guide']);
+Route::any('/upload/{fun}', ['middleware' => 'auth','uses' => 'UploadController@guide']);
 
+Route::any('/spider/{fun}', ['middleware' => 'auth','uses' => 'SpiderController@guide']);
+
+Route::auth();

@@ -4,15 +4,10 @@ $tableTags = [
 	'PC端URL',
 	'PC端URL排名',
 	'PC端URL昨日抓取情况',
-//	'PC端SEM',
-//	'PC端SEM排名',
 	'移动端URL',
 	'移动端URL排名',
 	'移动端URL昨日抓取情况',
-//	'移动端SEM',
-//	'移动端SEM排名',
-
-	'期望',
+	'期望landing类目',
 	'备注',
 	'添加者',
 	'添加时间',
@@ -96,50 +91,20 @@ $tableTags = [
 				<div class="navbar-header pull-right" role="navigation">
 					
 					<ul class="nav ace-nav">
-						<li class="purple">
-							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-								<i class="icon-bell-alt icon-animated-bell"></i>
-								<span class="badge badge-important">8</span>
-							</a>
-
-							<ul class="pull-right dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-close">
-								<li class="dropdown-header">
-									<i class="icon-warning-sign"></i>
-									8条通知
-								</li>
-							</ul>
-						</li>
-
 
 						<li class="light-blue">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
 								<img class="nav-user-photo" src="assets/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>欢迎光临,</small>
-									Jason
+									{{{Auth::user()->name}}}
 								</span>
 
 								<i class="icon-caret-down"></i>
 							</a>
 
 							<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
-								<li>
-									<a href="#">
-										<i class="icon-cog"></i>
-										设置
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<i class="icon-user"></i>
-										个人资料
-									</a>
-								</li>
-
-								<li class="divider"></li>
-
-								<li>
+								<li id="logout">
 									<a href="#">
 										<i class="icon-off"></i>
 										退出
@@ -214,6 +179,13 @@ $tableTags = [
 								<span class="menu-text"> 删除热词 </span>
 							</a>
 						</li>
+
+						<li id="downloadNav">
+							<a href="#downloadWordsSection" data-toggle="tab">
+								<i class="icon-download"></i>
+								<span class="menu-text"> 下载热词 </span>
+							</a>
+						</li>
 					</ul><!-- /.nav-list -->
 
 					<div class="sidebar-collapse" id="sidebar-collapse">
@@ -248,7 +220,7 @@ $tableTags = [
 
 								<div class="hr hr-12 dotted"></div>
 
-								<button type="submit" class="btn btn-sm btn-primary">Submit</button>
+								<button id="submitBtn" type="submit" class="btn btn-sm btn-primary">Submit</button>
 								<button type="reset" class="btn btn-sm">Reset</button>
 							</form>
 							<br>
@@ -262,12 +234,23 @@ $tableTags = [
 									<div id="exeProgress" style="width: 0%;" class="progress-bar progress-bar-yellow"></div>
 								</div>
 							</div>
+						</div>
 
+						<div id="downloadWordsSection" class="tab-pane fade in">
+							<div id="downloadWell" class="well">
+								<button id="downloadBtn" type="button" class="btn btn-sm btn-info">
+									<i class="icon-cloud-download"></i>
+									下载当前数据
+								</button>
 
+								{{--<button id="downloadLogBtn" type="button" class="btn btn-sm btn-default">--}}
+									{{--<i class="icon-cloud-download"></i>--}}
+									{{--下载爬虫日志--}}
+								{{--</button>--}}
+							</div>
 						</div>
 
 						<div id="searchWordsSection" class="tab-pane fade in active">
-
 							<div id="deleteWell" class="well">
 								<h5>当前已选中<span id="deleteInfo">0</span>条数据, 确认删除?</h5>
 								<button id="deleteConfirm" type="button" class="btn btn-sm btn-danger">
@@ -284,19 +267,17 @@ $tableTags = [
 										<li><a href="#">按PC端URL</a></li>
 										<li><a href="#">按PC端排名</a></li>
 										<li><a href="#">按PC端爬取状态</a></li>
-										{{--<li><a href="#">按PC端SEM</a></li>--}}
-										{{--<li><a href="#">按PC端SEM排名</a></li>--}}
 
 										<li class="divider"></li>
 
 										<li><a href="#">按移动端URL</a></li>
 										<li><a href="#">按移动端排名</a></li>
 										<li><a href="#">按移动端爬取状态</a></li>
-										{{--<li><a href="#">按移动端SEM</a></li>--}}
-										{{--<li><a href="#">按移动端SEM排名</a></li>--}}
 
 										<li class="divider"></li>
 
+										<li><a href="#">期望landing类目</a></li>
+										<li><a href="#">备注</a></li>
 										<li><a href="#">按创建者</a></li>
 										<li><a href="#">按创建时间</a></li>
 										<li><a href="#">按最近更新时间</a></li>
@@ -334,7 +315,7 @@ $tableTags = [
 								<span id="header-total"></span>
 							</div>
 
-							<div id="keywordTable" class="table-responsive" style = 'font-size: 1px;'>
+							<div id="keywordTable" class="table-responsive">
 								<table id="sample-table-1" class="table table-striped table-bordered table-hover">
 									<thead>
 									<tr>

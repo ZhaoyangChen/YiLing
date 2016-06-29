@@ -30,16 +30,19 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->call(function () {
-            if (SpiderController::status() == '1' && Spider::spiderQueueStatus() == '0') {
-                $keywords = Keyword::orderBy('updated_at', 'ASC')->take(1000)->get();
+            $numInQueue = intval(Spider::spiderQueueStatus());
+            if (SpiderController::status() == '1' && $numInQueue < 50) {
+                $supplyNum = 50 - $numInQueue;
+                $keywords = Keyword::orderBy('updated_at', 'ASC')->take(20 * $supplyNum)->get();
                 
                 $insects = array();
                 foreach ($keywords as $k) {
                     $insects[] = $k->name;
                 }
 
-                for ($i =0 ;$i <10; $i++) {
-                    dispatch(new SpiderJob(array_slice($insects, $i * 100, 100)));
+                for ($i =0 ;$i <$supplyNum; $i++) {
+                    //\Log::info("Producing Job {$i}");
+                    dispatch(new SpiderJob(array_slice($insects, $i * 20, 20), $i));
                     Spider::spiderQueuePlus();
                 }
             }

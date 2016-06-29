@@ -1,1 +1,0 @@
-<?phpnamespace App\Http\Controllers;use App\Http\Requests\Request;class LogginController extends Controller{	public static function login(Request $req) {		return response()->json(['bala', 'ok']);	}}
