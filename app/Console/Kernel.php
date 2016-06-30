@@ -31,18 +31,17 @@ class Kernel extends ConsoleKernel
     {
         $schedule->call(function () {
             $numInQueue = intval(Spider::spiderQueueStatus());
-            if (SpiderController::status() == '1' && $numInQueue < 50) {
-                $supplyNum = 50 - $numInQueue;
-                $keywords = Keyword::orderBy('updated_at', 'ASC')->take(20 * $supplyNum)->get();
+            if (SpiderController::status() == '1' && $numInQueue == 0) {
+                $keywords = Keyword::orderBy('updated_at', 'ASC')->take(100)->get();
                 
                 $insects = array();
                 foreach ($keywords as $k) {
                     $insects[] = $k->name;
                 }
 
-                for ($i =0 ;$i <$supplyNum; $i++) {
+                for ($i =0 ;$i <10; $i++) {
                     //\Log::info("Producing Job {$i}");
-                    dispatch(new SpiderJob(array_slice($insects, $i * 20, 20), $i));
+                    dispatch(new SpiderJob(array_slice($insects, $i * 10, 10), $i));
                     Spider::spiderQueuePlus();
                 }
             }
