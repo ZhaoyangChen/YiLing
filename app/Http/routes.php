@@ -29,6 +29,15 @@ Route::any('/spider/',
 ]
 );
 
+Route::any('/question/',
+    [
+        'middleware' => 'auth',
+        function () {
+            return view('question');
+        }
+    ]
+);
+
 Route::get('/tests/', ['middleware' => 'auth','uses' =>  'TestController@test']);
 
 Route::get('/query/{model}',['middleware' => 'auth','uses' =>  'QueryController@guide']);

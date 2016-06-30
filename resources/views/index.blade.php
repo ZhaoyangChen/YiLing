@@ -142,9 +142,9 @@ $tableTags = [
 									<i class="icon-bug"></i>
 							</a>
 
-							<button class="btn btn-warning nav-icon">
-								<i class="icon-group"></i>
-							</button>
+							<a href="/question" class="btn btn-warning nav-icon">
+								<i class="icon-book"></i>
+							</a>
 
 							<button class="btn btn-danger nav-icon">
 								<i class="icon-cogs"></i>
@@ -206,7 +206,7 @@ $tableTags = [
 						<ul class="breadcrumb">
 							<li>
 								<i class="icon-home home-icon"></i>
-								<a href="#">首页</a>
+								<a href="/">首页</a>
 							</li>
 							<li class="active">热词管理</li>
 						</ul><!-- .breadcrumb -->

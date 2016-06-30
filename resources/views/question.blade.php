@@ -139,19 +139,18 @@
 					</div><!-- #sidebar-shortcuts -->
 
 					<ul id="navTabs" class="nav nav-list">
-						<li id="addNav" class="active">
-							<a href="#spiderStatus" data-toggle="tab">
-								<i class="icon-bug"></i>
-								<span class="menu-text"> 爬虫状态 </span>
+						<li class="active">
+							<a href="#about" data-toggle="tab">
+								<i class="icon-info"></i>
+								<span class="menu-text"> 关于夷陵 </span>
 							</a>
 						</li>
 						<li>
-							<a href="#spiderControl" data-toggle="tab">
-								<i class="icon-wrench"></i>
-								<span class="menu-text"> 爬虫控制 </span>
+							<a href="#caution" data-toggle="tab">
+								<i class="icon-question"></i>
+								<span class="menu-text"> 注意事项 </span>
 							</a>
 						</li>
-
 					</ul><!-- /.nav-list -->
 
 					<div class="sidebar-collapse" id="sidebar-collapse">
@@ -175,100 +174,48 @@
 								<i class="icon-home home-icon"></i>
 								<a href="/">首页</a>
 							</li>
-							<li class="active">爬虫面板</li>
+							<li class="active">文档面板</li>
 						</ul><!-- .breadcrumb -->
 					</div>
 
-					<div class="well">
-							<div id="user-profile-1" class="user-profile row">
-								<div class="col-xs-12 col-sm-3 center">
-									<div>
-										<span class="profile-picture">
-											<img id="avatar" class="editable img-responsive" alt="Alex's Avatar" src="assets/images/Spider.jpg" />
-										</span>
+					<div class="page-content tab-content" >
+						<div id="about" class="tab-pane fade in active">
+							<div class="well">
+								<p>
+									1. 本系统主要通过爬虫抓取关键词在百度搜索引擎中与百姓网关联的链接, 以及其对应的排名状况。
+								</p>
 
-										<div class="space-4"></div>
+								<p>
+									2. 本系统基于Laravel 5.2框架, MongoDB, Redis 和 Supervisor 开发。
+								</p>
 
-										<div class="width-80 label label-info label-xlg arrowed-in arrowed-in-right">
-											<div class="inline position-relative">
-												<a href="#" class="user-title-label dropdown-toggle" data-toggle="dropdown">
-													<span class="white">Spider Z. Chen</span>
-												</a>
-
-											</div>
-										</div>
-									</div>
-
-									<div class="space-6"></div>
-
-									<div class="hr hr16 dotted"></div>
-								</div>
-
-								<div class="col-xs-12 col-sm-9">
-									<div class="profile-user-info profile-user-info-striped">
-										<div class="profile-info-row">
-											<div class="profile-info-name"> Name </div>
-
-											<div class="profile-info-value">
-												<span class="editable" id="username">Spider</span>
-											</div>
-										</div>
-
-										<div class="profile-info-row">
-											<div class="profile-info-name"> Status </div>
-
-											<div class="profile-info-value">
-												<span class="editable" id="status">Working</span>
-											</div>
-										</div>
-
-										<div class="profile-info-row">
-											<div class="profile-info-name"> Location </div>
-
-											<div class="profile-info-value">
-												<i class="icon-map-marker light-orange bigger-110"></i>
-												<span class="editable" id="country">Shanghai</span>
-												<span class="editable" id="city">China</span>
-											</div>
-										</div>
-
-										<div class="profile-info-row">
-											<div class="profile-info-name"> Father </div>
-
-											<div class="profile-info-value">
-												<span class="editable" id="about">Royan Chen</span>
-											</div>
-										</div>
-
-										<div class="profile-info-row">
-											<div class="profile-info-name"> Age </div>
-
-											<div class="profile-info-value">
-												<span class="editable" id="age">0</span>
-											</div>
-										</div>
-
-										<div class="profile-info-row">
-											<div class="profile-info-name"> Birthday </div>
-
-											<div class="profile-info-value">
-												<span class="editable" id="signup">15/06/2016</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div><!-- /.well -->
-
-
-						<div class="page-content tab-content" >
-							<div id="spiderStatus" class="tab-pane fade in active">
-							</div>
-							<div id="spiderControl" class="tab-pane fade in">
-								<button id="startSpider" class="btn btn-primary">启动爬虫工作</button>
-								<button id="stopSpider" class="btn btn-danger">停止爬虫工作</button>
+								<p>
+									3. 根据机器性能, 线上并行爬虫数目限定在15个。
+								</p>
 							</div>
 						</div>
+						<div id="caution" class="tab-pane fade in">
+							<div class="well">
+								<p>
+									1. 爬虫抓取逻辑根据百度网页元素中特殊的DOM结构, 一旦百度调整网页元素DOM, 将导致爬取结果全部为 排名无穷大
+								</p>
+								<p>
+									2. 爬虫通过各种方式伪造自然人类操作, 一旦百度调整防御策略, 可能会导致爬虫抓取出现大量错误。
+								</p>
+								<p>
+									3. 百度搜索引擎针对同一个查询,可能根据访问机器,用户习惯 返回不同的网页。 所以本系统抓取排名与自然人观察到的排名可能存在差别, 请时刻保持怀疑态度。
+								</p>
+								<p>
+									4. 爬虫启动, 停止操作为敏感操作, 请谨慎。
+								</p>
+								<p>
+									5. 新用户需要申请注册权限, 新功能添加或修改建议以及其他问题, 请联系 陈赵阳 chenzhaoyang@baixing.com。
+								</p>
+							</div>
+						</div>
+					</div>
+
+
 
 				</div><!-- /.main-content -->
 			</div><!-- /.main-container-inner -->
